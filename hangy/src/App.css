@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Word Display */
+.word-display span {
+  font-size: 2em;
+  margin: 0 5px;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+/* Keyboard */
+.keyboard button {
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.keyboard button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Game Status */
+.game-status p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.game-status .win {
+  color: green;
+}
+
+.game-status .lose {
+  color: red;
+}
+
+/* Play Again Button */
+button.play-again {
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+}
